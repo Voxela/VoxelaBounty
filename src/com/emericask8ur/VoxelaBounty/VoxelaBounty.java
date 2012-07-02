@@ -25,12 +25,12 @@ public class VoxelaBounty {
 	/**
 	 * Bounty Access HashSet
 	 */
-	public static HashSet<String> hunter = new HashSet<String>();
+	private static HashSet<String> hunter = new HashSet<String>();
 	
 	/**
 	 * Victim Access HashSet
 	 */
-	public static HashSet<String> victim = new HashSet<String>();
+	private static HashSet<String> victim = new HashSet<String>();
 	
 	/**
 	 * Checks if a Player is Wanted
